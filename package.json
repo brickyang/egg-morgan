@@ -1,0 +1,61 @@
+{
+  "name": "egg-morgan",
+  "version": "1.0.0",
+  "description": "Morgan egg.js plugin.",
+  "eggPlugin": {
+    "name": "morgan"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-morgan",
+    "morgan",
+    "logger"
+  ],
+  "dependencies": {
+    "koa-morgan": "^0.4.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "autod-egg": "^1.0.0",
+    "egg": "^1.4.0",
+    "egg-bin": "^4.0.4",
+    "egg-ci": "^1.6.0",
+    "egg-mock": "^3.7.0",
+    "eslint": "^4.1.1",
+    "eslint-config-egg": "^5.0.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app",
+    "config",
+    "app.js"
+  ],
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brickyang/egg-morgan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brickyang/egg/issues"
+  },
+  "homepage": "https://github.com/brickyang/egg-morgan#readme",
+  "author": "Brick <brick.c.yang@gmail.com>",
+  "license": "MIT"
+}
