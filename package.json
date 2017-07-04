@@ -19,10 +19,10 @@
   "devDependencies": {
     "autod": "^2.8.0",
     "autod-egg": "^1.0.0",
-    "egg": "^1.4.0",
+    "egg": "^1.5.0",
     "egg-bin": "^4.0.4",
-    "egg-ci": "^1.6.0",
-    "egg-mock": "^3.7.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.8.0",
     "eslint": "^4.1.1",
     "eslint-config-egg": "^5.0.0",
     "supertest": "^3.0.0",
