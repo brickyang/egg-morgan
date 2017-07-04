@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-morgan.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-morgan
-[travis-image]: https://img.shields.io/travis/eggjs/egg-morgan.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-morgan
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-morgan.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-morgan?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-morgan.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-morgan
+[travis-image]: https://img.shields.io/travis/brickyang/egg-morgan.svg?style=flat-square
+[travis-url]: https://travis-ci.org/brickyang/egg-morgan
+[codecov-image]: https://img.shields.io/codecov/c/github/brickyang/egg-morgan.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/brickyang/egg-morgan?branch=master
+[david-image]: https://img.shields.io/david/brickyang/egg-morgan.svg?style=flat-square
+[david-url]: https://david-dm.org/brickyang/egg-morgan
 [snyk-image]: https://snyk.io/test/npm/egg-morgan/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-morgan
 [download-image]: https://img.shields.io/npm/dm/egg-morgan.svg?style=flat-square
